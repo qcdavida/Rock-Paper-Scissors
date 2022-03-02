@@ -69,17 +69,9 @@ function game(){
                 winnerPara.textContent = declareWinner(playerWinCount, computerWinCount);
                 playerWinCount = 0;
                 computerWinCount = 0;
-                // reset(para, playerScorePara, computerScorePara, winnerPara);
             }
         });
     });
-}
-
-function reset(para, playerScorePara, computerScorePara, winnerPara){
-    para.textContent = "";
-    playerScorePara.textContent = "Player score: 0";
-    computerScorePara.textContent = "Computer score: 0";
-    winnerPara.textContent = "";
 }
 
 game();
