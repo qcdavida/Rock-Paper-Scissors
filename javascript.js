@@ -1,4 +1,5 @@
-
+const buttons = document.querySelectorAll('button');
+console.log(buttons);
 let weaponArray = ["rock", "paper", "scissors"];
 let playerWinCount = 0;
 let computerWinCount = 0;

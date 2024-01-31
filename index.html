@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rock, Paper, Scissors...</title>
-        <link href="./style.css" rel="stylesheet">
-        <script src="javascript.js" defer></script>
-    </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rock, Paper, Scissors...</title>
+		<link href="./style.css" rel="stylesheet" />
+		<script src="javascript.js" defer></script>
+	</head>
 
-    <body>
-        <div class="main-content">
-            <h1>Welcome to Rock, Paper, Scissors! >:)</h1>
-            <h1>Rules:</h1>
-            <ul>
-                <li>Click the button below to choose your weapon.</li>
-                <li>First player to win five rounds is the winner.</li>
-                <li>The winner will be showered with praise; the loser will be taunted and booed until my throat is sore!</li>
-            </ul>
-        </div>
+	<body>
+		<div class="main-content">
+			<h1>Welcome to Rock, Paper, Scissors!</h1>
+			<h1>Rules:</h1>
+			<ul>
+				<li>Click the button below to choose your weapon.</li>
+				<li>First player to win five rounds is the winner.</li>
+			</ul>
+		</div>
 
-        <div class="sub-content">
-            <div class="player-buttons-div">
-                <button id="rock">ROCK</button>
-                <button id="paper">PAPER</button>
-                <button id="scissors">SCISSORS</button>
-            </div>
+		<div class="sub-content">
+			<div class="player-buttons-div">
+				<button id="rock">ROCK</button>
+				<button id="paper">PAPER</button>
+				<button id="scissors">SCISSORS</button>
+			</div>
 
-            <div class="game-display">
-                <div class="player-col">
-                    <p id="player-score">Player score: 0</p>
-                    <p id="player-weapon">Player chose:</p>
-                </div>
+			<div class="game-display">
+				<div class="player-col">
+					<p id="player-score">Player score: 0</p>
+					<p id="player-weapon">Player chose:</p>
+				</div>
 
-                <div class="computer-col">
-                    <p id="computer-score">Computer score: 0</p>
-                    <p id="computer-weapon">Computer chose:</p>
-                </div>
-            </div>
+				<div class="computer-col">
+					<p id="computer-score">Computer score: 0</p>
+					<p id="computer-weapon">Computer chose:</p>
+				</div>
+			</div>
 
-            <div class="results-display">
-                <p id="round-winner"></p>
-                <p id="final-message"></p>
-            </div>
-        </div>
-    </body>
+			<div class="results-display">
+				<p id="round-winner"></p>
+				<p id="final-message"></p>
+			</div>
+		</div>
+	</body>
 </html>
